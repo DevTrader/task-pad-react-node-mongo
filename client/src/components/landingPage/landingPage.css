@@ -1,4 +1,7 @@
-
+.BackGroundHere {
+  background-image: url("./images/landingpagebg.jpg");
+  background-position: center; 
+}
 .container {
     max-width: 960px;
   }
