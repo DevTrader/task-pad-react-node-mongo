@@ -41,15 +41,15 @@ const landingPage = () => {
             <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
                 <div className="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div className="my-3 py-3">
-                    <h2 className="display-5">Create Multiple Pads</h2>
-                    <p className="lead">Each Pad can hold as many tasks as you need!</p>
+                        <h2 className="display-5">Create Multiple Pads</h2>
+                        <p className="lead">Each Pad can hold as many tasks as you need!</p>
                     </div>
                     <div className="bg-light box-shadow mx-auto" style={styleOne}></div>
                 </div>
                 <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-3 p-3">
-                    <h2 className="display-5">Prioritize Tasks</h2>
-                    <p className="lead">Pads are limited to 3 priority levels.</p>
+                        <h2 className="display-5">Prioritize Tasks</h2>
+                        <p className="lead">Pads are limited to 3 priority levels.</p>
                     </div>
                     <div className="bg-dark box-shadow mx-auto" style={styleOne}></div>
                 </div>
@@ -58,15 +58,15 @@ const landingPage = () => {
             <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
                 <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-3 p-3">
-                    <h2 className="display-5">Don't Second Guess Your Actions</h2>
-                    <p className="lead">With the built-in action planner you will always know what to do next.</p>
+                        <h2 className="display-5">Don't Second Guess Your Actions</h2>
+                        <p className="lead">With the built-in action planner you will always know what to do next.</p>
                     </div>
                     <div className="bg-dark box-shadow mx-auto" style={styleOne}></div>
                 </div>
                 <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div className="my-3 py-3">
-                    <h2 className="display-5">Designed For Success!</h2>
-                    <p className="lead">This app was designed to focus all your efforts on productive tasks.</p>
+                        <h2 className="display-5">Designed For Success!</h2>
+                        <p className="lead">This app was designed to focus all your efforts on productive tasks.</p>
                     </div>
                     <div className="bg-light box-shadow mx-auto" style={styleOne}></div>
                 </div>
@@ -86,24 +86,24 @@ const landingPage = () => {
                     <small className="d-block mb-3 text-muted">Copyright {year} Nicolas K. Sartor</small>
                     </div>
                     <div className="col-6 col-md">
-                    <h5>Features</h5>
-                    <ul className="list-unstyled text-small">
-                        <li><a className="text-muted" href="#">Coming Soon!</a></li>
+                        <h5>Features</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Coming Soon!</a></li>
 
-                    </ul>
+                        </ul>
                     </div>
-                    <div className="col-6 col-md">
-                    <h5>Resources</h5>
-                    <ul className="list-unstyled text-small">
-                        <li><a className="text-muted" href="#">Coming Soon!</a></li>
-                    </ul>
-                    </div>
+                    {/* <div className="col-6 col-md">
+                        <h5>Resources</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Coming Soon!</a></li>
+                        </ul>
+                    </div> */}
                     <div className="col-6 col-md">
                         <h5>Resources</h5>
                         <ul className="list-unstyled text-small">
-                        <li><a className="text-muted" href="#">Business</a></li>
-                        <li><a className="text-muted" href="#">Coming Soon!</a></li>
-                    </ul>
+                            <li><a className="text-muted" href="#">Business</a></li>
+                            <li><a className="text-muted" href="#">Coming Soon!</a></li>
+                        </ul>
                     </div>
                     <div className="col-6 col-md">
                         <h5>About</h5>
@@ -118,6 +118,5 @@ const landingPage = () => {
         </div>
     )
 }
-
 
 export default landingPage
