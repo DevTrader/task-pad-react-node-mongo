@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React, { PureComponent } from 'react';
 import LandingPage from './components/landingPage/landingPage'
 import './App.css';
 
-class App extends Component {
+class App extends PureComponent {
 
   render() {
     return (
