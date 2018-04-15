@@ -22,16 +22,16 @@ const landingPage = () => {
                     TaskPad
                     {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="d-block mx-auto"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg> */}
                     </a>
-                    <a className="py-2 d-none d-md-inline-block btn btn-outline-secondary" onClick={logIn} href="#" style={{color: 'white', position: 'absolute', right: '400px', margin: '5px 0px'}}>Log In</a>
-                    <a className="py-2 d-none d-md-inline-block btn btn-success" onClick={signUp} href="#" style={{color: 'white', position: 'absolute', right: '300px', margin: '5px 0px'}}>Sign Up</a>
+                    <a className="py-2 mobile-btn-hdr-login d-md-inline-block btn btn-outline-secondary" onClick={logIn} href="#" style={{color: 'white', position: 'absolute', right: '400px', margin: '5px 0px'}}>Log In</a>
+                    <a className="py-2 mobile-btn-hdr-signup d-md-inline-block btn btn-success" onClick={signUp} href="#" style={{color: 'white', position: 'absolute', right: '300px', margin: '5px 0px'}}>Sign Up</a>
                 </div>
             </nav>
 
             <div className="BackGroundHere position-relative overflow-hidden p-3 p-md-5 text-center">
                 <div className="col-md-5 p-lg-5 mx-auto my-5">
                     <h1 className="display-4 font-weight-normal">TaskPad</h1>
-                    <p className="lead font-weight-normal">The ultimate personal tasks tracker and prioritizer.</p>
-                    <p className="lead font-weight-normal">Increase yout productivity now!</p>
+                    <p className="lead font-weight-normal">The ultimate personal productivity app!</p>
+                    <p className="lead font-weight-normal">Increase yout productivity now, just click the button bellow.</p>
                     <a className="btn btn-lg btn-success" href="#">Get Started</a>
                 </div>
                 {/* <div className="product-device box-shadow d-none d-md-block"></div>
@@ -58,8 +58,8 @@ const landingPage = () => {
             <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
                 <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-3 p-3">
-                    <h2 className="display-5">Share your Pads</h2>
-                    <p className="lead">Need help? Share your tasks with your team or family!</p>
+                    <h2 className="display-5">Don't Second Guess Your Actions</h2>
+                    <p className="lead">With the built-in task maps you will always know what to do next.</p>
                     </div>
                     <div className="bg-dark box-shadow mx-auto" style={styleOne}></div>
                 </div>
@@ -72,45 +72,18 @@ const landingPage = () => {
                 </div>
             </div>
 
-            <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-                <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                    <div className="my-3 p-3">
-                    <h2 className="display-5">Another headline</h2>
-                    <p className="lead">And an even wittier subheading.</p>
-                    </div>
-                    <div className="bg-white box-shadow mx-auto" style={styleOne}></div>
-                </div>
-                <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                    <div className="my-3 py-3">
-                    <h2 className="display-5">Another headline</h2>
-                    <p className="lead">And an even wittier subheading.</p>
-                    </div>
-                    <div className="bg-white box-shadow mx-auto" style={styleOne}></div>
-                </div>
-            </div>
-
-            <div className="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-                <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                    <div className="my-3 p-3">
-                    <h2 className="display-5">Another headline</h2>
-                    <p className="lead">And an even wittier subheading.</p>
-                    </div>
-                    <div className="bg-white box-shadow mx-auto" style={styleOne}></div>
-                </div>
-                <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
-                    <div className="my-3 py-3">
-                    <h2 className="display-5">Another headline</h2>
-                    <p className="lead">And an even wittier subheading.</p>
-                    </div>
-                    <div className="bg-white box-shadow mx-auto" style={styleOne}></div>
+            <div className='productDescriptionContainer'>
+                <div className='pDContent'>
+                    <h2 className='font-weight-normal'>What TaskPad Can Do For You</h2>
                 </div>
             </div>
 
             <footer className="container py-5">
                 <div className="row">
                     <div className="col-12 col-md">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg>
-                    <small className="d-block mb-3 text-muted">Copyright {year}</small>
+                    {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="d-block mb-2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line><line x1="9.69" y1="16" x2="3.95" y2="6.06"></line><line x1="14.31" y1="16" x2="2.83" y2="16"></line><line x1="16.62" y1="12" x2="10.88" y2="21.94"></line></svg> */}
+                    TaskPad
+                    <small className="d-block mb-3 text-muted">Copyright {year} Nicolas K. Sartor</small>
                     </div>
                     <div className="col-6 col-md">
                     <h5>Features</h5>
