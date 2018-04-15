@@ -30,8 +30,8 @@ const landingPage = () => {
             <div className="BackGroundHere position-relative overflow-hidden p-3 p-md-5 text-center">
                 <div className="col-md-5 p-lg-5 mx-auto my-5">
                     <h1 className="display-4 font-weight-normal">TaskPad</h1>
-                    <p className="lead font-weight-normal">The ultimate personal productivity app!</p>
-                    <p className="lead font-weight-normal">Increase yout productivity now, just click the button bellow.</p>
+                    <p className="lead font-weight-normal">The ultimate business productivity app!</p>
+                    <p className="lead font-weight-normal">Increase your productivity now, just click the button bellow.</p>
                     <a className="btn btn-lg btn-success" href="#">Get Started</a>
                 </div>
                 {/* <div className="product-device box-shadow d-none d-md-block"></div>
@@ -49,7 +49,7 @@ const landingPage = () => {
                 <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-3 p-3">
                     <h2 className="display-5">Prioritize Tasks</h2>
-                    <p className="lead">By prioritizing the critical tasks first you will be much more productive!</p>
+                    <p className="lead">Pads are limited to 3 priority levels.</p>
                     </div>
                     <div className="bg-dark box-shadow mx-auto" style={styleOne}></div>
                 </div>
@@ -59,14 +59,14 @@ const landingPage = () => {
                 <div className="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
                     <div className="my-3 p-3">
                     <h2 className="display-5">Don't Second Guess Your Actions</h2>
-                    <p className="lead">With the built-in task maps you will always know what to do next.</p>
+                    <p className="lead">With the built-in action planner you will always know what to do next.</p>
                     </div>
                     <div className="bg-dark box-shadow mx-auto" style={styleOne}></div>
                 </div>
                 <div className="bg-primary mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
                     <div className="my-3 py-3">
-                    <h2 className="display-5">Mobile Friendly</h2>
-                    <p className="lead">Check tasks off on the go!</p>
+                    <h2 className="display-5">Designed For Success!</h2>
+                    <p className="lead">This app was designed to focus all your efforts on productive tasks.</p>
                     </div>
                     <div className="bg-light box-shadow mx-auto" style={styleOne}></div>
                 </div>
@@ -99,19 +99,18 @@ const landingPage = () => {
                     </ul>
                     </div>
                     <div className="col-6 col-md">
-                    <h5>Resources</h5>
-                    <ul className="list-unstyled text-small">
-                    <li><a className="text-muted" href="#">Business</a></li>
+                        <h5>Resources</h5>
+                        <ul className="list-unstyled text-small">
+                        <li><a className="text-muted" href="#">Business</a></li>
                         <li><a className="text-muted" href="#">Coming Soon!</a></li>
                     </ul>
                     </div>
                     <div className="col-6 col-md">
-                    <h5>About</h5>
-                    <ul className="list-unstyled text-small">
-                        <li><a className="text-muted" href="#">Locations</a></li>
-                        <li><a className="text-muted" href="#">Privacy</a></li>
-                        <li><a className="text-muted" href="#">Terms</a></li>
-                    </ul>
+                        <h5>About</h5>
+                        <ul className="list-unstyled text-small">
+                            <li><a className="text-muted" href="#">Privacy</a></li>
+                            <li><a className="text-muted" href="#">Terms</a></li>
+                        </ul>
                     </div>
                 </div>
                 <p className='text-muted' style={{fontSize: '10px'}}>Planned, Designed and Developed by <a href='http://www.nicolaskaosartor.com/'>Nicolas K. Sartor</a></p>
