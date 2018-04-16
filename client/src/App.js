@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
-import LandingPage from './components/landingPage/landingPage'
+import LandingPage from './components/landingPage/landingPage';
+import ServerTest from './components/serverTest/serverTest';
 import './App.css';
 
 class App extends PureComponent {
@@ -7,7 +8,8 @@ class App extends PureComponent {
   render() {
     return (
       <div className="App">
-        <LandingPage />
+        {/* <LandingPage /> */}
+        <ServerTest />
       </div>
     );
   }
