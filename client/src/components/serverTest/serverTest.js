@@ -1,23 +1,22 @@
 import React from 'react';
+import {API_BASE_URL} from '../../config.js';
 import axios from 'axios';
 
 const postTest = () => {
-    const url = 'http://localhost:8000/insert'
-
     console.log(document.getElementById("title").value);
     console.log(document.getElementById("content").value);
+    const data = {
+        title: document.getElementById("title").value,
+        content: document.getElementById("content").value
+    }
 
-    fetch(url, { 
+    fetch(`${API_BASE_URL}/insert`, { 
         method: 'POST',
-        mode: 'no-cors',
         headers: {
-            'content-type': 'application/json',
-            'Access-Control-Allow-Origin':'*'
+            'Accept': 'application/json, text/plain, */*',
+            'Content-Type': 'application/json'
         },
-        data: {
-            title: document.getElementById("title").value,
-            content: document.getElementById("content").value
-        }
+        body: JSON.stringify(data)
       })
       .then(function(response) {
         console.log(response)
